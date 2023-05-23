@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Hachi+Maru+Pop&family=Lobster+Two&family=Montserrat:wght@100&family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&family=Pridi:wght@200&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@100;200&family=Roboto:wght@500;700;900&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-y: hidden;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container-content{
+    width:200px;
+    height: 360px;
+    margin-top: 2px;
+    z-index: 4;
+    background-color: #10122b;
+    padding: 5px;
+    color: white;
+    border-radius: 15px 0 15px 0;
+    border: 4.5px solid #1b1b1b;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+    align-items: center;
+    flex-direction: column;
+
+}
+.title{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.fa-regular{
+  color: red;
+  margin-left: 5px;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+ 
+}
+.fa-regular:hover{
+  transform: rotate(180deg);
+}
+
+
+.heading{
+    font-size: 12px;
+    text-align: center;
+    background-color: #171b34;
+    
+    width: 100%;
+    border-radius: 1px solid  #171b34;
+    color: #f3f7fe;
+}
+.cal-height{
+    text-align: center;
+    margin: 5px 0;
+    background-color: #181935;
+    padding: 5px 0;
+    width: 95%;
+    border-radius: 1px solid #181935;
+    font-size: 12px;
+    color: #f3f7fe;
+}
+.cal-weight{
+    text-align: center;
+    margin: 10px 0;
+    background-color: #181935;
+    padding: 5px 0;
+    width: 95%;
+    border-radius: 1px solid #181935;
+    font-size: 12px;
+    color: #f3f7fe;
+}
+.fa-mars{
+    color: #379ac2;
+    font-size: 75px;
+    padding: 3px 5px;
+    
+    margin: 3px 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    
+    
+}
+.fa-mars:hover{
+    transform: scale(1.09);
+    transition: 0.2s;
+}
+.active1{
+    border: 1.5px solid #379ac2;
+}
+
+.fa-venus{
+    color: #379ac2;
+    font-size: 75px;
+    color: #dd3a5c;
+    padding: 3px 5px;
+    
+    border-radius: 2px;
+    margin: 3px 5px;
+    cursor: pointer;
+}
+.fa-venus:hover{
+    transform: scale(1.09);
+    transition: 0.2s;
+}
+.active2{
+    border: 1.5px solid #dd3a5c;
+}
+
+.myHeightValue{
+    border: none;
+    text-align: center;
+    width: 40%;
+    font-size: 16px;
+    color: #f3f7fe;
+    background-color: #181935;
+    margin: 5px 10px;
+    border: none;
+   
+    
+}
+.myweightValue{
+    border: none;
+    text-align: center;
+    width: 40%;
+    font-size: 16px;
+    color: #f3f7fe;
+    background-color: #181935;
+    margin: 5px 10px;
+    border: none;
+    
+}
+.calculation{
+    text-align: center;
+    margin: 5px 0;
+    background-color: #181935;
+    padding: 5px 0;
+    width: 95%;
+    border-radius: 1px solid #181935;
+    font-size: 20px;
+    color: #f3f7fe;
+}
+.bttn{
+    margin: 2px 0;
+    
+
+}
+.myBtn{
+    background-color: #313880;
+    border: none;
+    font-size: 12px;
+    color: white;
+    border-radius: 2px;
+    padding: 3px 20px;
+
+}
+body{
+    background: #3399ff;
+    
+
+  }
+  
+  
+  .circle{
+    position: absolute;
+    border-radius: 50%;
+    background: white;
+    animation: ripple 15s infinite;
+    box-shadow: 0px 0px 1px 0px #508fb9;
+    
+  }
+  
+  .small{
+    width: 200px;
+    height: 200px;
+    left: -100px;
+    bottom: -100px;
+  }
+  
+  .medium{
+    width: 400px;
+    height: 400px;
+    left: -200px;
+    bottom: -200px;
+  }
+  
+  .large{
+    width: 600px;
+    height: 600px;
+    left: -300px;
+    bottom: -300px;
+  }
+  
+  .xlarge{
+    width: 800px;
+    height: 800px;
+    left: -400px;
+    bottom: -400px;
+  }
+  
+  .xxlarge{
+    width: 1000px;
+    height: 1000px;
+    left: -500px;
+    bottom: -500px;
+  }
+  
+  .shade1{
+    opacity: 0.2;
+  }
+  .shade2{
+    opacity: 0.5;
+  }
+  
+  .shade3{
+    opacity: 0.7;
+  }
+  
+  .shade4{
+    opacity: 0.8;
+  }
+  
+  .shade5{
+    opacity: 0.9;
+  }
+  
+  @keyframes ripple{
+    0%{
+      transform: scale(0.8);
+    }
+    
+    50%{
+      transform: scale(1.2);
+    }
+    
+    100%{
+      transform: scale(0.8);
+    }
+  }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container-content">
+            <!-- heading -->
+            <div class="title">
+                <p class="heading">BMI Calculator</p>
+                <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <!-- male and female tagg -->
+            <div class="mytaggs">
+                <i class="fa-sharp fa-solid fa-mars" ></i>
+                <i class="fa-sharp fa-solid fa-venus" ></i>
+            </div>
+            <!-- for height calculation -->
+            <div class="cal-height">
+                <p class="height">Your height in m</p>
+                <input type="text" class="myHeightValue" placeholder="0">
+            </div>
+            <!-- for weight calculation -->
+            <div class="cal-weight">
+                <p class="weight">Your weight in kg</p>
+                <input type="text" class="myweightValue" placeholder="0">
+            </div>
+            <!-- BMI calculation -->
+            <div class="calculation">
+                <p class="BMI">Your BMI</p>
+                <p class="bmivlaue">00</p>
+            </div>
+            <!-- button -->
+            <div class="bttn">
+                <button class="myBtn">Calculate</button>
+            </div>
+        </div>
+    </div>
+    <div class=".ripple-background">
+        <div class="circle xxlarge shade1"></div>
+        <div class=" circle xlarge shade2"></div>
+        <div class="circle large shade3"></div>
+        <div class="circle mediun shade4"></div>
+        <div class="circle small shade5"></div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
